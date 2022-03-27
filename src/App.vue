@@ -1,5 +1,14 @@
 <script setup lang="ts">
+import { onMounted } from "vue";
+import { useStore } from "./config/store";
+
+const store = useStore();
+
 const content = ["Hello", "world"];
+
+onMounted(async () => {
+  store.setTournament().then(() => console.log(store.tournament));
+});
 </script>
 
 <template>
