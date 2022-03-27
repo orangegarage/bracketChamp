@@ -1,0 +1,17 @@
+1. Overlay - 
+2. Component - 
+3. Panel - below the video, can be any number
+
+Can be any Component
+need to build separate view.
+
+
+Bonus scope #1. Creator view (website) - will adjust webapp data to signal which match is the one actually playing on stream
+
+Basic Flow
+1. extension takes bracket website (smash gg) and queries for games that are 'in progress'
+2. After pulling bracket website data, app will format data and return it as a Component/Overlay? Carousel to display all game that are playing to the viewer
+
+Documentation
+Challonge API: https://documenter.getpostman.com/view/11915787/U16jN6TK#a67b0f63-2bd9-4616-a1e0-d126d53b62ff
+Twitch extension API: https://dev.twitch.tv/docs/extensions/
